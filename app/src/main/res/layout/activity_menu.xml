@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1DEEC"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    android:layout_marginBottom="80px"
+                    android:background="#93EEFA"
+                    android:fontFamily="cursive"
+                    android:text="@string/municipiul_roman"
+                    android:textAlignment="center"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/pic2" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="69dp"
+                    android:background="#A6D4F8"
+                    android:text="@string/roman_este_un_municipiu_n_jude_ul_neam_moldova_rom_nia_este_situat_n_partea_central_a_podi_ului_moldovei_n_jude_ul_neam_la_confluen_a_r_urilor_siret_i_moldova"
+                    android:textAlignment="center"
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px"
+                    android:layout_marginBottom="60px"
+                    android:background="#A6D4F8"
+                    android:text="@string/municipiul_roman_are_o_pozi_ie_strategic_n_centrul_regiunii_istorico_geografice_moldova_ntr_o_arie_unde_converg_mai_multe_c_i_de_comunica_ie_de_importan_european_na_ional_i_regional_din_punct_de_vedere_feroviar_f_c_nd_parte_din_magistrala_bucure_ti_dorne_ti_cern_u_i_var_ovia_iar_rutier_afl_ndu_se_pe_axul_expres_de_interes_european_e85_care_leag_polonia_i_ucraina_rusia_i_republica_moldova_prin_rom_nia_de_bulgaria_grecia_turcia_i_orientul_apropiat"
+                    android:textAlignment="center"
+                    android:textSize="40px" />
+
+                <Button
+                    android:id="@+id/buttonIstoric"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereIstoric"
+                    android:text="@string/istoric_ora" />
+
+                <Button
+                    android:id="@+id/buttonAtractii"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereAtractii"
+                    android:text="@string/atrac_ii_turistice" />
+
+                <Button
+                    android:id="@+id/buttonRecenzii"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereRecenzii"
+                    android:text="@string/recenzii_vizitatori" />
+
+                <Button
+                    android:id="@+id/buttonTraseu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereTraseu"
+                    android:text="@string/traseu_puncte_principale" />
+
+                <Button
+                    android:id="@+id/buttonLocaluri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereLocaluri"
+                    android:text="@string/restaurante_i_localuri" />
+
+                <Button
+                    android:id="@+id/buttonCazari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereCazari"
+                    android:text="@string/caz_ri" />
+
+                <Button
+                    android:id="@+id/buttonTransport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6AB0DE"
+                    android:onClick="deschidereTransport"
+                    android:text="@string/contact_firme_taximetrie" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    app:srcCompat="@drawable/pic3" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

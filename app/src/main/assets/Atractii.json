@@ -1,0 +1,238 @@
+{
+    "Parcuri": {
+        "Agrement": [{
+                "Nume": "Parc agrement 1",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "Parc agrement 2",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Joaca": [{
+                "Nume": "Parc joaca 1",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "Parc joaca 2",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Sportiv": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ]
+    },
+    "Monumente": {
+        "Istorice": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Naturale": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ]
+    },
+    "Cladiri": {
+        "Muzeu": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Biblioteca": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Mall": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Institutii": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ]
+    },
+    "Judet": {
+        "Istorice": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Naturale": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ],
+        "Distractie": [{
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            },
+            {
+                "Nume": "asd",
+                "despre": "asd",
+                "imagine": "../rutaimagine",
+                "link": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtractiiActivity"
+    android:background="#ECCFE1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    android:layout_marginBottom="80px"
+                    android:background="#b366ff"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/atrac_iile_ora_ului_roman"
+                    android:textAlignment="center"
+                    android:textSize="32sp" />
+
+                <ImageView
+                    android:id="@+id/ivA1"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii1" />
+
+                <TextView
+                    android:id="@+id/tvA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/arhiepiscopia_romanului"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA2"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii2" />
+
+                <TextView
+                    android:id="@+id/tvA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/muzeul_de_istorie"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA3"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii3" />
+
+                <TextView
+                    android:id="@+id/tvA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/casa_memorial_calistrat_hoga"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA4"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii4" />
+
+                <TextView
+                    android:id="@+id/tvA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Biblioteca Municipală"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA5"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii5" />
+
+                <TextView
+                    android:id="@+id/tvA5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/parcul_municipal"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA6"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii6" />
+
+                <TextView
+                    android:id="@+id/tvA6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/roman_value_center"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/ivA7"
+                    android:layout_width="338dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/atractii7" />
+
+                <TextView
+                    android:id="@+id/tvA7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ECCFE1"
+                    android:textStyle="bold"
+                    android:textDirection="rtl"
+                    android:textColorHighlight="@color/purple_500"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/complexul_sportiv_i_de_agrement"
+                    android:textAlignment="center"
+                    android:textSize="50px"
+                    android:layout_marginBottom="30dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
